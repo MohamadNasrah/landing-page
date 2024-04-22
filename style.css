@@ -12,7 +12,7 @@ body {
     justify-content: space-around;
     
     
-    padding: 1em 7em 1em 13.6em;
+    padding: 1em 12em 1em 12em;
 }
 
 .logo {
@@ -32,21 +32,21 @@ a {
     display: flex;
     background-color: #1f2937;
     justify-content: space-around;
-    padding: 4em 6em 8em 12em;
+    padding: 4em 12em 8em 12em;
     /* flex-wrap: wrap; */
 }
 
-.hero h1 {
+.hero div h1 {
     font-size: 48px;
-    font-weight: 1000;
+    font-weight: 900;
     color: #f9faf8;
-    width: 10em;
 }
 
-.hero p {
+.hero div p {
     font-size: 18px;
     color: #e5e7eb;
     width: 400px;
+    margin-top: -15px;
     padding-bottom: 2em;
 }
 
@@ -104,7 +104,7 @@ border: 3px solid #3882f6;
 .qoute {
     background-color: #e5e7eb;
     height: 200px;
-    padding: 5em 19em 5em;
+    padding: 5em 19em 6.5em;
 }
 
 span {
@@ -129,7 +129,7 @@ span {
     background-color: #3882f6;
     margin: 6em 12em;
     padding: 2em 5em;
-    border-radius: 1em;
+    border-radius: 0.6em;
 }
 
 .action-text h3 {
@@ -149,7 +149,7 @@ span {
 
 button {
     background-color: #3882f6;
-    border-radius: 1em;
+    border-radius: 0.6em;
     width: 12em;
     height: 3.2em;
     color: white;
