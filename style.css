@@ -1,0 +1,167 @@
+body {
+    font-family: sans-serif, 'New Times Roman' ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;    
+}
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-around;
+    
+    
+    padding: 1em 7em 1em 13.6em;
+}
+
+.logo {
+    margin-right: auto;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+a {
+    margin: auto 10px auto ;
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-around;
+    padding: 4em 6em 8em 12em;
+    /* flex-wrap: wrap; */
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 1000;
+    color: #f9faf8;
+    width: 10em;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 400px;
+    padding-bottom: 2em;
+}
+
+.hero img {
+    /* margin-left:auto; */
+    padding-top: 2.8em;
+}
+
+.hero div {
+
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.illustrations {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    
+}
+
+.illustrations div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 200px;
+    padding-top: 2em;
+    padding-bottom: 5em;
+}
+
+.info-img img {
+border-radius: 1em;
+border: 3px solid #3882f6;
+
+}
+
+.info-img p {
+ padding: 1em;
+ text-align: center;
+}
+
+
+.qoute {
+    background-color: #e5e7eb;
+    height: 200px;
+    padding: 5em 19em 5em;
+}
+
+span {
+    /* display: inline-block; */
+    font-size: 24px;
+    font-weight: bolder;
+    margin-left: 25em;
+}
+
+.qoute p {
+    font-size: 36px;
+    font-weight: lighter;
+    /* added italic font in html */
+    color: #1f2937;
+    margin-bottom: -10px;
+}
+ 
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    margin: 6em 12em;
+    padding: 2em 5em;
+    border-radius: 1em;
+}
+
+.action-text h3 {
+    color: white;
+}
+
+.action-text p {
+    color: #e5e7eb;
+}
+
+.footer {
+    background-color: #1f2937;
+    padding: 2em 10em;
+    color: #e5e7eb;
+    text-align: center;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 1em;
+    width: 12em;
+    height: 3.2em;
+    color: white;
+    /* might need to change the bodred value */
+    border: none;
+}
+
+.sign-button-two {
+    border: 2px solid white;
+}
+
+
+
+
+/* }https://instagram.com/minglang321 */
